@@ -2,9 +2,10 @@
 
 import turtle
 
-length = 
-angle = 2
-numbers = range(0, 180)
+n = 
+length = 125
+angle = 180 - 180 * (n-2) / n
+numbers = range(0, n)
 
 tyrone = turtle.Turtle()
 
