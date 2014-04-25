@@ -2,13 +2,14 @@
 
 import turtle
 
-length = 75
-angle = 60
-count = 0
+length = 
+angle = 2
+numbers = range(0, 180)
 
 tyrone = turtle.Turtle()
 
-while count < 6:
+for number in numbers:
+	tyrone.color("#FF04C1")
 	tyrone.forward(length)
 	tyrone.left(angle)
-	count = count + 1
+	
