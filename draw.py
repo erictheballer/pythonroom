@@ -2,15 +2,16 @@
 
 import turtle
 
-n = 150
-length = 100
-angle = 150
-numbers = range(0, n)
+angle = 90
+numbers = range(10, 200, 3)
+colors = ["red", "blue", "yellow", "green"]
 
 tyrone = turtle.Turtle()
 
 for number in numbers:
-	
-	tyrone.forward(length)
-	tyrone.left(angle)
-	
+	for color in colors:
+		tyrone.color(color)
+		tyrone.forward(number)
+		tyrone.left(angle)
+	tyrone.left(8)
+			
